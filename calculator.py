@@ -18,6 +18,3 @@ def divide( first, second):
     #   2. if the second number is zero, an exception is raised, the exception text must say exactly the following (make sure everything including casing and spaces match)
     #       I'm sorry, I can't divide by zero
     #   3. returns the quotient of first and second
-    if second == 0:
-        raise Exception('I\'m sorry, I can\'t divide by zero')
-    return first/second
