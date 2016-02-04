@@ -32,7 +32,7 @@ while choice != 5:
         print('The calculator returned: ' + str(calculator.multiply( first, second )))
     elif choice == 4:
         print('The calculator returned: ' + str(calculator.divide( first, second )))
+    elif choice == 5:
+        print('Goodbye!')
     else:
         print('Sorry that\'s not a valid choice. Try again.')
-
-print('Goodbye!')
