@@ -17,9 +17,6 @@ def divide( first, second):
     if second == int(0): #this is an if statement saying that if the user inputs an int equal to 0 then after the program errors, an exception will be raised telling the user why the program crashed, in this case (I'm sorry, I can't devide by zero) 
         raise Exception ("I'm sorry, I can't divide by zero") # I used double quotation marks so that the strings wouldnt end when i wrote the contractions i'm and can't for the exception to print. 
     return int(first) / int(second)
-
-
-    
     # TODO:
     # fill in code here that:
     #   1. checks the second number to see if it is zero
